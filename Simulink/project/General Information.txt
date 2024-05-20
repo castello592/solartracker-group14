@@ -1,0 +1,96 @@
+General Information:
+
+    Operating point: Model initial condition
+
+    Size:  1 inputs, 1 outputs, 3 states
+
+Linearization Result:
+
+  A = 
+               x1          x2          x3
+   x1  -0.0001564      -4.192     0.01564
+   x2           1           0           0
+   x3     -0.6194           0      -3.731
+ 
+  B = 
+          u1
+   x1      0
+   x2      0
+   x3  7.463
+ 
+  C = 
+       x1  x2  x3
+   y1   0   1   0
+ 
+  D = 
+       u1
+   y1   0
+ 
+Name: Linearization at model initial condition
+Continuous-time state-space model.
+Model Properties
+
+State Names:
+x1 - Integrator
+x2 - Integrator1
+x3 - Integrator2
+
+Input Channel Names:
+u1 - Non Linear Model/1
+
+
+
+General Information:
+
+    Operating point: Model initial condition
+
+    Size:  1 inputs, 1 outputs, 3 states
+
+Linearization Result:
+
+  From input "u1" to output "y1":
+               0.1167
+  ---------------------------------
+  s^3 + 3.731 s^2 + 4.203 s + 15.64
+ 
+Name: Linearization at model initial condition
+Continuous-time transfer function.
+Model Properties
+
+Input Channel Names:
+u1 - Non Linear Model/1
+
+Output Channel Names:
+y1 - Non Linear Model/1
+
+
+
+General Information:
+
+    Operating point: Model initial condition
+
+    Size:  1 inputs, 1 outputs, 3 states
+
+Linearization Result:
+
+  From input "u1" to output "y1":
+                0.11671
+  -----------------------------------
+  (s+3.729) (s^2 + 0.002152s + 4.195)
+ 
+Name: Linearization at model initial condition
+Continuous-time zero/pole/gain model.
+Model Properties
+
+Input Channel Names:
+u1 - Non Linear Model/1
+
+Output Channel Names:
+y1 - Non Linear Model/1
+
+
+
+
+
+Output Channel Names:
+y1 - Non Linear Model/1

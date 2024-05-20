@@ -1,0 +1,24 @@
+clear;clc;close all;
+J=25.5759;%Moment of Inertia of the system 
+c=0.4; %damping constant of the system
+k=0.1; % stiffness constant of the system
+R=0.5; %Resistance of the motor
+L=0.134;%Motor inductance
+kt=40; %Motor constant
+ke=0.083; %back emf constant
+I=19e-10; %Motor rotor inertia
+bm=0.00123;%motor damping constant
+m=98.87; %m [kg]
+g=9.81;
+d=0.11055; % distance to pivot from cg. 
+q=0.11055;
+
+
+
+length_tracker=2.268;%Solar trakcer length [m]
+width_tracker=1.758; %Solar tracker width [m]
+As=length_tracker*width_tracker; %Solar tracker area [m^2]
+
+
+
+
